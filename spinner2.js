@@ -4,16 +4,7 @@ let i = 0;
 let offset = 200;
 
 const array = [
-  "|   ",
-  "/   ",
-  "-   ",
-  "\\   ",
-  "|   ",
-  "/   ",
-  "-   ",
-  "\\   ",
-  "|   \n"
-];
+  "|   ", "/   ", "-   ", "\\   ", "|   ", "/   ", "-   ", "\\   ", "|   \n"];
 for (const item of array) {
   setTimeout(() => {
     stdOut.write("\r" + item);
